@@ -1,0 +1,16 @@
+{
+  "name": "millimetr-storybook",
+  "license": "MIT",
+  "scripts": {
+    "start": "millimetr develop",
+    "build": "millimetr build",
+    "storybook": "start-storybook -s src/static"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.2",
+    "@millimetr/cli": "^1.1.4",
+    "@storybook/html": "^5.3.19",
+    "axios": "^0.19.2",
+    "babel-loader": "^8.1.0"
+  }
+}
